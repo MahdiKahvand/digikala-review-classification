@@ -1,0 +1,19 @@
+{
+    "split_seed": 2026,
+    "split_strategy": "StratifiedGroupSplit",
+    "group_column": "product_id",
+    "target_columns": [
+        "recommendation_status",
+        "rating_band"
+    ],
+    "split_sizes": {
+        "train": 3756421,
+        "validation": 751284,
+        "test": 751285
+    },
+    "split_ratios": {
+        "train": 0.6104964034155363,
+        "validation": 0.12209924817895486,
+        "test": 0.12209941069971689
+    }
+}
